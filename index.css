@@ -275,14 +275,8 @@ footer {
   align-items: center;
 }
 
-.gg-instagram {
-  color: yellow;
-  font-weight: bold;
-  text-shadow: 0.2rem 0.2rem #ff0000;
-  margin: 0 2%;
-}
 .gg-twitter {
-  color: yellow;
+  color: white;
   font-weight: bold;
   text-shadow: 0.2rem 0.2rem #ff0000;
   margin: 0 2%;
