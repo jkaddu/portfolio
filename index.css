@@ -223,7 +223,7 @@ header {
 section {
   border: 3px solid yellow;
   display: flex;
-  flex-direction: row;
+  align-items: center;
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -233,7 +233,8 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 9% 3%;
+  width: 60%;
+  margin: 5% auto;
   padding: 3% 3%;
   font-family: "Otomanopee One", sans-serif;
   background-color: red;
@@ -246,9 +247,6 @@ section {
 }
 .about p {
   font-weight: bold;
-}
-.about-img {
-  margin: 18% 5% 18% 22%;
 }
 
 /* Footer Styles */
