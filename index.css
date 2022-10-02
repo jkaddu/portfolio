@@ -191,7 +191,7 @@ nav {
 
 /* Header Section  Styles */
 
-header {
+.header {
   border: 3px solid yellow;
   font-family: "Otomanopee One", sans-serif;
   height: 50vh;
@@ -199,7 +199,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url("../images/fabio-ballasina-wEL2zPX3jDg-unsplash.jpg");
+  background-image: url("./images/fabio-ballasina-wEL2zPX3jDg-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -255,7 +255,7 @@ footer {
   border: 3px solid yellow;
   font-family: "Otomanopee One", sans-serif;
   padding: 2% 2%;
-  background-image: url(/images/fabio-ballasina-wEL2zPX3jDg-unsplash.jpg);
+  background-image: url(./images/fabio-ballasina-wEL2zPX3jDg-unsplash.jpg);
 }
 .heading {
   margin-bottom: 2%;
