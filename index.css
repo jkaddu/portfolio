@@ -220,7 +220,7 @@ nav {
 
 /* About Me Styles */
 
-section {
+.about_section {
   border: 3px solid yellow;
   display: flex;
   align-items: center;
@@ -241,12 +241,52 @@ section {
   opacity: 0.8;
 }
 .about h2 {
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
   color: black;
   text-shadow: 0.2rem 0.2rem yellow;
   font-weight: bold;
 }
 .about p {
   font-weight: bold;
+}
+
+/* Project Styles */
+
+.projects_section {
+  border: 3px solid yellow;
+}
+
+.projects_title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-top: 5rem;
+  color: red;
+  text-shadow: 0.1rem 0.1rem black;
+  font-weight: bold;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+.projects {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  margin-left: 10rem;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+.project_img {
+  width: 45%;
+  height: 45%
+}
+
+div {
+  margin-right: 6rem;
+  text-align: center;
+}
+
+div p {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 /* Footer Styles */
@@ -273,32 +313,6 @@ footer {
   align-items: center;
 }
 
-.gg-twitter {
-  color: white;
-  font-weight: bold;
-  text-shadow: 0.2rem 0.2rem #ff0000;
-  margin: 0 2%;
-}
-
-/* Resume Styles */
-.resume {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: yellow;
-  opacity: 0.95;
-}
-.res {
-  padding: 3% 10%;
-  font-family: "Otomanopee One", sans-serif;
-}
-.res h2 {
-  color: black;
-  margin-bottom: 1%;
-}
-.res p {
-  text-align: center;
-}
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
