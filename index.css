@@ -128,52 +128,45 @@ table {
   border-spacing: 0;
 }
 
-/* General Styling */
+/* General Styles */
 
 * {
   box-sizing: border-box;
   max-width: 100%;
   border: 1px solid red;
 }
-
 html {
   font-size: 62.5%; /* 1rem = 10px */
 }
-
 body {
   line-height: 1.5;
   font-size: 1.8rem;
 }
-
 h1 {
   font-size: 4rem;
   margin-top: 4%;
   text-shadow: 0.2rem 0.2rem #ff0000;
 }
-
 h2 {
   font-size: 3rem;
   text-shadow: 0.2rem 0.2rem #ff0000;
   color: white;
 }
-
 h1,
 h2 {
   text-align: center;
 }
-
 a {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
-
 a:hover {
   color: white;
   text-decoration: none;
 }
 
-/* Navbar Section */
+/* Navbar Styles */
 
 nav {
   display: flex;
@@ -189,12 +182,12 @@ nav {
   background-color: black;
 }
 
-/* Header Section  Styles */
+/* Header Styles */
 
 .header {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   font-family: "Otomanopee One", sans-serif;
-  height: 50vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,14 +214,13 @@ nav {
 /* About Me Styles */
 
 .about_section {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   display: flex;
   align-items: center;
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .about {
   display: flex;
   flex-direction: column;
@@ -253,10 +245,9 @@ nav {
 
 /* Project Styles */
 
-.projects_section {
+/* .projects_section {
   border: 3px solid yellow
-}
-
+} */
 .projects_title {
   font-size: 3.5rem;
   font-weight: bold;
@@ -266,22 +257,19 @@ nav {
   font-weight: bold;
   font-family: "Otomanopee One", sans-serif;
 }
-
 .projects {
   font-family: "Otomanopee One", sans-serif;
+  margin-bottom: 1rem;
 }
-
 .project_box {
   margin: 7rem auto;
   width: 45%;
   height: 45%;
 }
-
 .project_img {
   width: 100%;
   height: 100%;
 }
-
 /* .image_overlay {
   border: 1px solid red;
   display: flex;
@@ -292,7 +280,6 @@ nav {
   height: 100%;
   background-color: rgba(0,0,0,0.5);
 } */
-
 .project_box p {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -302,7 +289,7 @@ nav {
 /* Footer Styles */
 
 footer {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   font-family: "Otomanopee One", sans-serif;
   padding: 2% 2%;
   background-image: url(./images/fabio-ballasina-wEL2zPX3jDg-unsplash.jpg);
