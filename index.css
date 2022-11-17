@@ -302,12 +302,6 @@ footer {
   justify-content: flex-start;
   color: white;
 }
-.icons {
-  width: 25%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
 /* Media Queries */
 
