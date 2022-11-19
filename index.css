@@ -178,49 +178,41 @@ nav {
   position: fixed;
   z-index: 1;
   opacity: 0.9;
-  position: fixed;
   background-color: black;
 }
 
-/* Header Styles */
-
-.header {
-  /* border: 3px solid yellow; */
-  font-family: "Otomanopee One", sans-serif;
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background-image: url("./images/fabio-ballasina-wEL2zPX3jDg-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.headerTitle {
-  color: white;
-}
-.image {
-  width: 100%;
-}
-.logo {
-  background-image: url("../images/");
-}
 .links {
   width: 40%;
   display: flex;
   justify-content: space-evenly;
 }
 
+/* Header Styles */
+
+header {
+  font-family: "Otomanopee One", sans-serif;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/fabio-ballasina-wEL2zPX3jDg-unsplash.jpg");
+  background-size: cover;
+}
+
+header h1 {
+  color: white;
+}
+
+
+
 /* About Me Styles */
 
 .about_section {
-  /* border: 3px solid yellow; */
   display: flex;
   align-items: center;
   background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
+
 .about {
   display: flex;
   flex-direction: column;
@@ -232,22 +224,21 @@ nav {
   background-color: red;
   opacity: 0.8;
 }
+
 .about h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1%;
   font-size: 3.5rem;
   color: black;
   text-shadow: 0.2rem 0.2rem yellow;
   font-weight: bold;
 }
+
 .about p {
   font-weight: bold;
 }
 
 /* Project Styles */
 
-/* .projects_section {
-  border: 3px solid yellow
-} */
 .projects_title {
   font-size: 3.5rem;
   font-weight: bold;
