@@ -143,13 +143,14 @@ body {
   font-size: 1.8rem;
 }
 
-/* Header Styles */
+/* Index Styles */
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: 10%;
   position: fixed;
   z-index: 1;
   opacity: 0.9;
@@ -179,9 +180,6 @@ button a {
   color: inherit;
   font-size: 1.8rem;
 }
-
-/* Home Styles */
-
 .home {
   height: 70vh;
   display: flex;
@@ -195,9 +193,6 @@ button a {
   color: white;
   text-shadow: 0.2rem 0.2rem #ff0000;
 }
-
-/* About Me Styles */
-
 .about_section {
   display: flex;
   align-items: center;
@@ -211,7 +206,7 @@ button a {
   width: 60%;
   margin: 5%;
   padding: 3% 3%;
-  background-color: red;
+  background-color: blue;
   opacity: 0.8;
 }
 .about h2 {
@@ -224,9 +219,6 @@ button a {
 .about p {
   font-weight: bold;
 }
-
-/* Project Styles */
-
 .projects_section {
   padding: 3%;
 }
@@ -234,7 +226,7 @@ button a {
   text-align: center;
   font-size: 3.5rem;
   font-weight: bold;
-  color: red;
+  color: blue;
 }
 .project_box {
   margin: 5rem auto;
@@ -263,9 +255,6 @@ button a {
   margin-bottom: 1rem;
   text-align: center;
 }
-
-/* Footer Styles */
-
 footer {
   font-family: "Otomanopee One", sans-serif;
   padding: 2% 2%;
@@ -280,6 +269,79 @@ footer h2 {
 .foot a {
   text-decoration: none;
   color: white;
+}
+
+/* Resume Page */
+
+.top_section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/fabio-ballasina-wEL2zPX3jDg-unsplash.jpg");
+  background-size: cover;
+}
+.top_section h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0.2rem 0.2rem #ff0000;
+}
+.top_section p {
+  color: white;
+  font-weight: bold;
+}
+.top_section a {
+  color: white;
+  font-weight: bold;
+}
+.experience {
+  margin-top: 1%;
+  padding: 2%;
+}
+.experience h2 {
+  color: blue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.experience div {
+  padding-left: .2%;
+}
+.athlete {
+  padding: 0 2%;
+}
+.athlete div {
+  padding-left: .2%;
+}
+.education {
+  margin-top: 1%;
+  padding: 2%;
+}
+.education h2 {
+  color: blue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.education div {
+  padding-left: .2%;
+}
+.cert {
+  padding: 0 2%;
+}
+.cert div {
+  padding-left: .2%;
+}
+.tech {
+  margin-top: 2%;
+  padding: 0 2% 2% 2%;
+}
+.tech h2 {
+  color: blue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.tech ul {
+  padding: 0 0 0 .5%;
 }
 
 /* Media Queries */
