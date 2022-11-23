@@ -187,6 +187,7 @@ button a {
   text-decoration: none;
   color: inherit;
   font-size: 1.8rem;
+  font-weight: bold;
 }
 .home {
   height: 70vh;
@@ -360,27 +361,27 @@ footer h2 {
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
-  .links {
-    display: flex;
-    margin: 0 auto;
-  }
-  .link {
-    padding: 0 20%;
-  }
-  .link1 {
-    display: none;
-  }
-  .about-img {
-    border-radius: 900rem;
-    margin-top: 28%;
-    padding: 5%;
-  }
+ links {
+  margin-right: 15%;
+ }
 }
 
 /* Phone */
 
 @media (max-width: 500px) {
-  body {
-    background-color: yellow;
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  links {
+    display: none;
+  }
+  .home {
+    text-align: center;
+  }
+  .project_img {
+    border-radius: 20%;
   }
 }
