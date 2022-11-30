@@ -246,8 +246,8 @@ button a {
   flex-direction: column;
   margin: 5% auto;
   padding:1%;
-  width: 45%;
-  height: 45%;
+  width: 50%;
+  height: 50%;
 }
 .project_box button {
   padding: 2% 3%;
@@ -393,5 +393,8 @@ footer h2 {
   }
   .project_img {
     border-radius: 20%;
+  }
+  .project_box button a {
+    font-size: 1.2rem;
   }
 }
