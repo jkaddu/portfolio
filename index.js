@@ -1,59 +1,57 @@
 // Home links
-const one = document.querySelector(".l1")
+const one = document.querySelector(".l1");
+const two = document.querySelector(".l2");
+const three = document.querySelector(".l3");
+const four = document.querySelector(".l4");
 
-one.addEventListener("mouseenter", function() {
-    one.style.transform = 'scale(1.2)'
-    one.style.transition = 'all 0.3s'
-})
+one.addEventListener("click", function () {
+  window.location.href = "#about";
+});
 
-one.addEventListener("mouseleave", function() {
-    one.style.transform = 'scale(1)'
-})
+one.addEventListener("mouseenter", function () {
+  one.style.transform = "scale(1.1)";
+  one.style.transition = "all 0.3s";
+});
 
-const two = document.querySelector(".l2")
+one.addEventListener("mouseleave", function () {
+  one.style.transform = "scale(1)";
+});
 
-two.addEventListener("mouseenter", function() {
-    two.style.transform = 'scale(1.2)'
-    two.style.transition = 'all 0.3s'
-})
+two.addEventListener("click", function () {
+  window.location.href = "#projects";
+});
 
-two.addEventListener("mouseleave", function() {
-    two.style.transform = 'scale(1)'
-})
+two.addEventListener("mouseenter", function () {
+  two.style.transform = "scale(1.1)";
+  two.style.transition = "all 0.3s";
+});
 
+two.addEventListener("mouseleave", function () {
+  two.style.transform = "scale(1)";
+});
 
-const three = document.querySelector(".l3")
+three.addEventListener("click", function () {
+  window.location.href = "/images/tech_resume.pdf";
+});
 
-three.addEventListener("mouseenter", function() {
-    three.style.transform = 'scale(1.2)'
-    three.style.transition = 'all 0.3s'
-})
+three.addEventListener("mouseenter", function () {
+  three.style.transform = "scale(1.1)";
+  three.style.transition = "all 0.3s";
+});
 
-three.addEventListener("mouseleave", function() {
-    three.style.transform = 'scale(1)'
-})
+three.addEventListener("mouseleave", function () {
+  three.style.transform = "scale(1)";
+});
 
+four.addEventListener("click", function () {
+  window.location.href = "#contact";
+});
 
-// Resume links
+four.addEventListener("mouseenter", function () {
+  four.style.transform = "scale(1.1)";
+  four.style.transition = "all 0.3s";
+});
 
-const anchorOne = document.querySelector(".link")
-
-anchorOne.addEventListener("mouseenter", function() {
-    anchorOne.style.transform = 'scale(1.2)'
-    anchorOne.style.transition = 'all 0.3s'
-})
-
-anchorOne.addEventListener("mouseleave", function() {
-    anchorOne.style.transform = 'scale(1)'
-})
-
-const ancR1 = document.querySelector(".r1")
-
-ancR1.addEventListener("mouseenter", function() {
-    ancR1.style.transform = 'scale(1.2)'
-    ancR1.style.transition = 'all 0.3s'
-})
-
-ancR1.addEventListener("mouseleave", function() {
-    ancR1.style.transform = 'scale(1)'
-})
+four.addEventListener("mouseleave", function () {
+  four.style.transform = "scale(1)";
+});

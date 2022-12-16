@@ -4,7 +4,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -12,10 +11,16 @@
       <nav>
         <h1>Yoshi Works</h1>
         <links>
-          <button><a class="link l1" href="#about">About</a></button>
-          <button><a class="link l1" href="#projects">Projects</a></button>
-          <button><a class="link l2" href="resume.html">Resume</a></button>
-          <button><a class="link l3" href="#contact">Contact</a></button>
+          <button class="l1"><a class="link" href="#about">About</a></button>
+          <button class="l2">
+            <a class="link" href="#projects">Projects</a>
+          </button>
+          <button class="l3">
+            <a class="link" href="/images/tech_resume.pdf">Resume</a>
+          </button>
+          <button class="l4">
+            <a class="link" href="#contact">Contact</a>
+          </button>
         </links>
       </nav>
     </header>
@@ -28,7 +33,13 @@
       <div class="about">
         <h2>About Me</h2>
         <p>
-          I'm a web developer from Vacaville, CA. I'm a former professional athlete that got into the tech world through CareerKarma. It lead me to BloomTech which was a great opportunity with the instructors and resources they provide. I think of myself as part creative which lended itself to becoming a software engineer. Creating products and services that help imporve people's lives. Looking for an opportunity where I can grow as a developer.
+          I'm a web developer from Vacaville, CA. I'm a former professional
+          athlete that got into the tech world through CareerKarma. It lead me
+          to BloomTech which was a great opportunity with the instructors and
+          resources they provide. I think of myself as part creative which
+          lended itself to becoming a software engineer. Creating products and
+          services that help imporve people's lives. Looking for an opportunity
+          where I can grow as a developer.
         </p>
       </div>
     </section>
@@ -38,30 +49,47 @@
         <h2>My Projects</h2>
 
         <div class="project_box">
-          <img src="./images/books2.jpg" alt="" class="project_img">
-          <button><a href="https://bookr-jkaddu.vercel.app/">Book Directory</a></button>
+          <img src="./images/books2.jpg" alt="" class="project_img" />
+          <button>
+            <a target="_blank" href="https://bookr-jkaddu.vercel.app/"
+              >Book Directory</a
+            >
+          </button>
         </div>
 
         <div class="project_box">
-          <img src="./images/movies.jpg" alt="" class="project_img">
-          <button><a href="https://create-react-app-jkaddu.vercel.app/">Movie Favorites</a></button>
+          <img src="./images/movies.jpg" alt="" class="project_img" />
+          <button>
+            <a
+              target="_blank"
+              href="https://create-react-app-jkaddu.vercel.app/"
+              >Movie Favorites</a
+            >
+          </button>
         </div>
 
         <div class="project_box">
-          <img src="./images/charity2.jpg" alt="" class="project_img">
-          <button><a href="https://wcc2-g1gne3zmb-jkaddu.vercel.app/">Non-Profit</a></button>
+          <img src="./images/charity2.jpg" alt="" class="project_img" />
+          <button>
+            <a target="_blank" href="https://wcc2-g1gne3zmb-jkaddu.vercel.app/"
+              >Non-Profit</a
+            >
+          </button>
         </div>
-
       </div>
     </section>
 
     <footer id="contact">
-        <h2>Contact Me</h2>
-        <div class="foot">
-            <a target="_blank" href="mailto:jkaddu@yahoo.com">Email</a><br />
-            <a target="_blank" href="https://www.linkedin.com/in/joshuakaddu/">LinkedIn</a><br />
-            <a target="_blank" href="https://github.com/jkaddu">Github</a>
-        </div>
+      <h2>Contact Me</h2>
+      <div class="foot">
+        <a target="_blank" href="mailto:jkaddu@yahoo.com">Email</a><br />
+        <a target="_blank" href="https://www.linkedin.com/in/joshuakaddu/"
+          >LinkedIn</a
+        ><br />
+        <a target="_blank" href="https://github.com/jkaddu">Github</a>
+      </div>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

@@ -142,8 +142,8 @@ body {
   line-height: 1.5;
   font-size: 1.8rem;
   /* Hides scrollbar */
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 /* Hides scrollbar for Chrome/Safari/Edge */
 body::-webkit-scrollbar {
@@ -245,7 +245,7 @@ button a {
   display: flex;
   flex-direction: column;
   margin: 5% auto;
-  padding:1%;
+  padding: 1%;
   width: 50%;
   height: 50%;
 }
@@ -329,13 +329,13 @@ footer h2 {
   font-weight: bold;
 }
 .experience div {
-  padding-left: .2%;
+  padding-left: 0.2%;
 }
 .athlete {
   padding: 0 2%;
 }
 .athlete div {
-  padding-left: .2%;
+  padding-left: 0.2%;
 }
 .education {
   margin-top: 1%;
@@ -347,13 +347,13 @@ footer h2 {
   font-weight: bold;
 }
 .education div {
-  padding-left: .2%;
+  padding-left: 0.2%;
 }
 .cert {
   padding: 0 2%;
 }
 .cert div {
-  padding-left: .2%;
+  padding-left: 0.2%;
 }
 .tech {
   margin-top: 2%;
@@ -365,15 +365,15 @@ footer h2 {
   font-weight: bold;
 }
 .tech ul {
-  padding: 0 0 0 .5%;
+  padding: 0 0 0 0.5%;
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
- links {
-  margin-right: 15%;
- }
+  links {
+    margin-right: 15%;
+  }
 }
 
 /* Phone */
