@@ -171,7 +171,8 @@ nav h1 {
 }
 links {
   display: flex;
-  width: 30%;
+  justify-content: space-evenly;
+  width: 40%;
 }
 button {
   background-color: black;

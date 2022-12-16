@@ -18,7 +18,7 @@ one.addEventListener("mouseleave", function () {
 });
 
 two.addEventListener("click", function () {
-  window.location.href = "#projects";
+  window.location.href = "projects.html";
 });
 
 two.addEventListener("mouseenter", function () {
