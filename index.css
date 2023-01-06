@@ -370,6 +370,12 @@ footer h2 {
   padding: 0 0 0 0.5%;
 }
 
+/* Projects Page */
+
+.containerPro {
+  padding: 10%;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 768px) {

@@ -39,16 +39,13 @@ const two = document.querySelector(".two");
 const three = document.querySelector(".three");
 
 for (let i = 0; i < box.length; i++) {
-  console.log((box[i].style.transform = "s"));
   box[i].addEventListener("mouseenter", function () {
     box[i].style.transform = "scale(1.05)";
     box[i].style.transition = "all 0.3s";
-    console.log("mouse enter");
   });
 
   box[i].addEventListener("mouseleave", function () {
     box[i].style.transform = "scale(1)";
-    console.log("mouse leave");
   });
 }
 
@@ -62,4 +59,8 @@ two.addEventListener("click", function () {
 
 three.addEventListener("click", function () {
   window.location.href = "https://wcc2-g1gne3zmb-jkaddu.vercel.app/";
+});
+
+document.addEventListener("keydown", function (e) {
+  console.log(e.key);
 });
