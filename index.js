@@ -1,9 +1,5 @@
 // Nav Buttons
-const navBtn = document.querySelectorAll(".l1");
-const abt = document.querySelector(".abt");
-const prj = document.querySelector(".prj");
-const rsm = document.querySelector(".rsm");
-const ctc = document.querySelector(".ctc");
+const navBtn = document.querySelectorAll("li");
 
 for (let i = 0; i < navBtn.length; i++) {
   navBtn[i].addEventListener("mouseenter", function () {
@@ -15,22 +11,6 @@ for (let i = 0; i < navBtn.length; i++) {
     navBtn[i].style.transform = "scale(1)";
   });
 }
-
-abt.addEventListener("click", function () {
-  window.location.href = "#about";
-});
-
-prj.addEventListener("click", function () {
-  window.location.href = "projects.html";
-});
-
-rsm.addEventListener("click", function () {
-  window.location.href = "/images/tech_resume.pdf";
-});
-
-ctc.addEventListener("click", function () {
-  window.location.href = "#contact";
-});
 
 // Project Buttons
 const box = document.querySelectorAll(".box_btn");
