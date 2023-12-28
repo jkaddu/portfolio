@@ -200,7 +200,6 @@ button a {
 .home h1 {
   font-size: 5rem;
   color: white;
-  text-shadow: 0.2rem 0.2rem #ff0000;
 }
 
 /* About Section */
@@ -209,7 +208,7 @@ button a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #0984e3;
 }
 .about {
   display: flex;
@@ -219,19 +218,19 @@ button a {
   width: 60%;
   margin: 5%;
   padding: 3% 3%;
-  background-color: blue;
+  background-color: white;
   opacity: 0.8;
 }
 .about h2 {
   text-align: center;
   margin-bottom: 1%;
   font-size: 3.5rem;
-  color: white;
+  color: black;
   font-weight: bold;
 }
 .about p {
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 /* Projects Section */
