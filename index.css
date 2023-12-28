@@ -292,6 +292,9 @@ button a {
   margin-bottom: 1rem;
   text-align: center;
 }
+
+/* Footer */
+
 footer {
   font-family: "Otomanopee One", sans-serif;
   padding: 2% 2%;
@@ -304,26 +307,16 @@ footer h2 {
   margin-bottom: 2%;
 }
 .foot {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 .foot a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+  margin: 1%;
+  width: 3%;
 }
 .foot a:hover {
   color: gold;
-}
-
-/* Projects Page */
-
-.homeBtn {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 3%;
-}
-.containerPro {
-  padding: 8%;
 }
 
 /* Media Queries */
