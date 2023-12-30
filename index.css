@@ -158,8 +158,8 @@ header {
 }
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 10%;
   position: fixed;
@@ -174,16 +174,20 @@ nav h1 {
 ul {
   display: flex;
   justify-content: space-evenly;
-  width: 40%;
+  margin-right: 5%;
 }
-button {
+ul li {
+  position: relative;
+  float: left;
+  margin: 3%;
+}
+li button {
   background-color: #0984e3;
-  border-radius: 3px;
   color: white;
-  padding: 5% 0.5%;
   border: black;
 }
-button a {
+li button a {
+  display: block;
   text-decoration: none;
   color: inherit;
   font-size: 1.8rem;
@@ -237,6 +241,19 @@ button a {
 
 .projects_section {
   padding-bottom: 2%;
+}
+.projects_section button {
+  background-color: #0984e3;
+  border-radius: 3px;
+  color: white;
+  padding: 5% 0.5%;
+  border: black;
+}
+.projects_section button a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .projects_section h2 {
@@ -370,5 +387,9 @@ footer h2 {
   }
   .containerPro {
     padding-top: 17%;
+  }
+  .foot a {
+    margin: 0;
+    width: 1%;
   }
 }
