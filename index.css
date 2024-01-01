@@ -262,6 +262,7 @@ nav div a {
 .projects_section h2 {
   text-align: center;
   padding: 3%;
+  margin-top: 5%;
   font-size: 4.2rem;
   font-weight: bold;
   color: #0984e3;
@@ -329,6 +330,16 @@ footer h2 {
 }
 
 /* Media Queries */
+
+/* Ipad */
+
+@media (max-width: 768px) {
+  nav div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5%;
+  }
+}
 
 /* Phone */
 
