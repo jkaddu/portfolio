@@ -171,27 +171,22 @@ nav h1 {
   font-size: 3rem;
   color: white;
 }
-ul {
+nav div {
   display: flex;
   justify-content: space-evenly;
   margin-right: 5%;
 }
-ul li {
-  position: relative;
-  float: left;
-  margin: 3%;
-}
-li button {
-  background-color: #0984e3;
-  color: white;
-  border: black;
-}
-li button a {
+nav div a {
   display: block;
   text-decoration: none;
   color: inherit;
   font-size: 1.8rem;
   font-weight: bold;
+  position: relative;
+  float: left;
+  margin: 0 10%;
+  background-color: #0984e3;
+  color: white;
 }
 .home {
   height: 100vh;
@@ -248,12 +243,21 @@ li button a {
   color: white;
   padding: 5% 0.5%;
   border: black;
+  padding: 2% 3%;
+  width: 35%;
+  margin: 3% auto;
+  border-radius: 10px;
 }
 .projects_section button a {
   text-decoration: none;
   color: inherit;
   font-size: 1.8rem;
   font-weight: bold;
+}
+.project_box button:hover {
+  background-color: white;
+  color: #0984e3;
+  border: solid #0984e3 1px;
 }
 
 .projects_section h2 {
@@ -292,17 +296,6 @@ li button a {
   margin-bottom: 10%;
   padding: 0 3%;
   width: 50%;
-}
-.project_box button {
-  padding: 2% 3%;
-  width: 35%;
-  margin: 3% auto;
-  border-radius: 10px;
-}
-.project_box button:hover {
-  background-color: white;
-  color: #0984e3;
-  border: solid #0984e3 1px;
 }
 .project_box p {
   margin-top: 1rem;

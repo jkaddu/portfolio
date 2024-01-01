@@ -1,5 +1,5 @@
 // Nav Buttons
-const navBtn = document.querySelectorAll("li");
+const navBtn = document.querySelectorAll("a");
 
 for (let i = 0; i < navBtn.length; i++) {
   navBtn[i].addEventListener("mouseenter", function () {
@@ -26,21 +26,9 @@ contactBtn.addEventListener("click", function () {
 });
 
 // Project Buttons
-const box = document.querySelectorAll(".box_btn");
 const one = document.querySelector(".one");
 const two = document.querySelector(".two");
 const three = document.querySelector(".three");
-
-for (let i = 0; i < box.length; i++) {
-  box[i].addEventListener("mouseenter", function () {
-    box[i].style.transform = "scale(1.05)";
-    box[i].style.transition = "all 0.3s";
-  });
-
-  box[i].addEventListener("mouseleave", function () {
-    box[i].style.transform = "scale(1)";
-  });
-}
 
 one.addEventListener("click", function () {
   window.location.href = "https://bookr-jkaddu.vercel.app/";
