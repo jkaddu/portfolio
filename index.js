@@ -13,13 +13,18 @@ for (let i = 0; i < navBtn.length; i++) {
 }
 
 // Tags
+const h1Btn = document.querySelector(".scroll-top");
 const aboutBtn = document.querySelector(".scroll-about");
 const projectsBtn = document.querySelector(".scroll-projects");
 const contactBtn = document.querySelector(".scroll-contact");
+const headerSection = document.querySelector("header");
 const aboutSection = document.querySelector(".about_section");
 const projectsSection = document.querySelector(".projects_section");
 const contactFooter = document.querySelector("footer");
 
+h1Btn.addEventListener("click", function () {
+  headerSection.scrollIntoView({ behavior: "smooth" });
+});
 aboutBtn.addEventListener("click", function () {
   aboutSection.scrollIntoView({ behavior: "smooth" });
 });
