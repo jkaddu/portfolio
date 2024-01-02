@@ -317,7 +317,6 @@ footer h2 {
   text-align: center;
   font-size: 3rem;
   color: white;
-  margin-bottom: 1%;
 }
 .foot {
   display: flex;
@@ -387,6 +386,10 @@ footer p {
     padding-top: 17%;
   }
   .foot a {
-    margin: 0 2%;
+    margin: 0 1.5%;
+    width: 5%;
+  }
+  footer p {
+    margin: 1% 0;
   }
 }
