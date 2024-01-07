@@ -208,6 +208,19 @@ nav div a {
   font-size: 5rem;
   color: white;
   background-color: #0560a5;
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 /* About Section */
