@@ -240,7 +240,6 @@ nav div a {
   margin: 5%;
   padding: 3% 3%;
   background-color: white;
-  opacity: 0.8;
 }
 .about h2 {
   text-align: center;
@@ -258,23 +257,26 @@ nav div a {
 
 .projects_section {
   padding-bottom: 2%;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.802),
+      rgba(205, 205, 205, 0.8)
+    ),
+    url("./images/walkator-klMii3cR9iI-unsplash.jpg");
+  background-size: cover;
 }
 .projects_section button {
   background-color: #0984e3;
-  border-radius: 3px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
   color: white;
-  padding: 5% 0.5%;
   border: black;
   padding: 2% 3%;
   width: 35%;
   margin: 3% auto;
-  border-radius: 5px;
-}
-.projects_section button {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
+  cursor: pointer;
 }
 .project_box button:hover {
   background-color: white;
