@@ -239,7 +239,13 @@ nav div a {
   width: 60%;
   margin: 5%;
   padding: 1.5% 3%;
-  background-color: white;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.802),
+      rgba(205, 205, 205, 0.8)
+    ),
+    url("./images/keith-kasaija-wrM9TOVDSrs-unsplash.jpg");
+  background-size: cover;
 }
 .about h2 {
   text-align: center;
@@ -315,6 +321,7 @@ nav div a {
   width: 80%;
   height: 80%;
   border-radius: 5px;
+  border: 1px solid black;
 }
 .project_p {
   display: flex;
