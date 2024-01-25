@@ -12,7 +12,7 @@ for (let i = 0; i < navBtn.length; i++) {
   });
 }
 
-// Tags
+// Anchor Tags
 const h1Btn = document.querySelector(".scroll-top");
 const aboutBtn = document.querySelector(".scroll-about");
 const projectsBtn = document.querySelector(".scroll-projects");
