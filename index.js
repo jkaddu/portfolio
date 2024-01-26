@@ -41,7 +41,7 @@ const two = document.querySelector(".two");
 const three = document.querySelector(".three");
 
 one.addEventListener("click", function () {
-  window.location.href = "https://bookr-jkaddu.vercel.app/";
+  window.location.href = "https://bookr-seven.vercel.app/";
 });
 
 two.addEventListener("click", function () {
