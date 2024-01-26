@@ -206,6 +206,7 @@ nav div a {
 }
 .home h1 {
   font-size: 5rem;
+  padding: 0 1%;
   color: white;
   background-color: #0984e3;
   animation-name: moveInLeft;
