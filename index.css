@@ -207,6 +207,7 @@ nav div a {
 .home h1 {
   font-size: 5rem;
   padding: 0 1%;
+  border-radius: 10px;
   color: white;
   background-color: #0984e3;
   animation-name: moveInLeft;
@@ -236,7 +237,7 @@ nav div a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 60%;
   margin: 5%;
   padding: 1.5% 3%;
@@ -309,7 +310,7 @@ nav div a {
   border-radius: 10px;
   box-shadow: 0 20px 20px 0 rgba(52, 58, 64, 0.114);
   position: relative;
-  height: 375px;
+  height: 37.5rem;
 }
 .project_box p {
   padding: 3% 0;
@@ -365,12 +366,19 @@ footer p {
 
 /* Mobile */
 
-@media (max-width: 667px) {
+@media (max-width: 42em) {
+  html {
+    font-size: 50%;
+  }
   /* Home Page */
-  .mobileLink {
+  .section-links {
     display: none;
   }
-  nav:hover .mobileLink {
+
+  nav {
+    padding: 2rem;
+  }
+  nav:hover .section-links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -383,6 +391,8 @@ footer p {
   }
   .home {
     text-align: center;
+    padding: 3rem 1rem;
+    line-height: 1.2;
   }
   .about_section {
     padding: 5% 3%;
