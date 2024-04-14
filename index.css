@@ -128,69 +128,97 @@ table {
   border-spacing: 0;
 }
 
-/* General Styles */
+/* - SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* ********************************* */
+/* BENERAL STYLES */
+/* ********************************* */
 
 * {
   box-sizing: border-box;
   max-width: 100%;
   font-family: "Otomanopee One", sans-serif;
 }
+
 html {
   font-size: 62.5%; /* 1rem = 10px */
 }
+
 body {
   line-height: 1.5;
   font-size: 1.8rem;
-  /* Hides scrollbar */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-/* Hides scrollbar for Chrome/Safari/Edge */
-body::-webkit-scrollbar {
-  display: none;
+  max-width: 100%;
 }
 
-/* Header Section */
+/* ********************************* */
+/* HEADER */
+/* ********************************* */
 
 header {
   height: 100vh;
 }
-nav {
+
+.desktop-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 3.2rem;
+  height: 6.4rem;
   width: 100%;
-  height: 7%;
   position: fixed;
   z-index: 1;
   background-color: #0984e3;
   border-bottom: 1px solid black;
 }
-nav a {
-  margin-left: 2%;
+
+.scroll-top {
   text-decoration: none;
 }
-nav h1 {
-  font-size: 3rem;
-  color: white;
+
+.scroll-top h2 {
+  font-size: 3.2rem;
+  color: #fff;
 }
-nav div {
+
+.section-links {
   display: flex;
-  justify-content: space-evenly;
-  margin-right: 7%;
+  justify-content: space-between;
 }
-nav div a {
-  display: block;
+
+.section-links a {
   text-decoration: none;
+  padding: 0 2.4rem;
   color: inherit;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
-  position: relative;
-  float: left;
-  margin: 0 5%;
   background-color: #0984e3;
+  color: #fff;
+}
+
+/* MOBILE NAV */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
   color: white;
 }
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 .home {
   height: 100vh;
   display: flex;
@@ -204,11 +232,12 @@ nav div a {
     url("./images/ducksStadium.jpg");
   background-size: cover;
 }
+
 .home h1 {
-  font-size: 5rem;
-  padding: 0 1%;
+  font-size: 5.2rem;
+  padding: 0 2rem;
   border-radius: 10px;
-  color: white;
+  color: #fff;
   background-color: #0984e3;
   animation-name: moveInLeft;
   animation-duration: 2s;
@@ -225,7 +254,9 @@ nav div a {
   }
 }
 
-/* About Section */
+/* ********************************* */
+/* ABOUT SECTION*/
+/* ********************************* */
 
 .about_section {
   display: flex;
@@ -238,9 +269,9 @@ nav div a {
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
-  width: 60%;
-  margin: 5%;
-  padding: 1.5% 3%;
+  width: 55%;
+  margin: 6.4rem;
+  padding: 1.8rem 3.6rem;
   background-image: linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.802),
@@ -252,8 +283,8 @@ nav div a {
 }
 .about h2 {
   text-align: center;
-  margin-bottom: 1%;
-  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-size: 3.6rem;
   color: black;
   font-weight: bold;
   letter-spacing: -1px;
@@ -263,10 +294,11 @@ nav div a {
   color: black;
 }
 
-/* Projects Section */
+/* ********************************* */
+/* PROJECTS SECTION */
+/* ********************************* */
 
 .projects_section {
-  padding-bottom: 2%;
   background-image: linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.802),
@@ -274,105 +306,164 @@ nav div a {
     ),
     url("./images/walkator-klMii3cR9iI-unsplash.jpg");
   background-size: cover;
-  padding-bottom: 5%;
+  padding-bottom: 4.8rem;
 }
+
 .one {
+  text-align: center;
+  padding: 1.2rem 2.4rem;
+  border-radius: 10px;
+  width: 40%;
   background-color: #0984e3;
   color: #fff;
-  text-decoration: none;
-  padding: 12px 24px;
-  text-align: center;
-  width: 40%;
-  border-radius: 10px;
-  margin-top: 12px;
+  border: none;
 }
+
+.one:hover {
+  cursor: pointer;
+}
+
+.one a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 .projects_section h2 {
   text-align: center;
-  padding: 3% 0;
-  font-size: 5rem;
+  padding: 3.2rem 0;
+  font-size: 5.2rem;
   font-weight: bold;
   color: #0984e3;
   letter-spacing: -1px;
 }
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 3%;
-  padding: 2% 4%;
+  column-gap: 3.2rem;
+  padding: 3.2rem 6.4rem;
 }
+
 .project_box {
   display: flex;
   flex-direction: column;
-  padding: 1% 4%;
+  padding: 1.5rem 3rem;
   background-color: #fff;
-  margin: 0 4%;
-  padding: 5% 5%;
   border-radius: 10px;
   box-shadow: 0 20px 20px 0 rgba(52, 58, 64, 0.114);
   position: relative;
   height: 37.5rem;
 }
+
 .project_box p {
-  padding: 3% 0;
-}
-.project_img {
-  stroke: #0984e3;
-  width: 44px;
-  height: 44px;
-  margin-bottom: 3%;
-}
-.projects h2 {
-  font-size: 3.5rem;
-  font-weight: bold;
-  color: black;
-}
-.projects h3 {
-  font-size: 3rem;
-}
-.projects a {
-  position: absolute;
-  bottom: 27px;
+  padding: 1rem 0 1.2rem 0;
 }
 
-/* Footer */
+.project_img {
+  stroke: #0984e3;
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-bottom: 2rem;
+}
+
+.projects h3 {
+  font-size: 2.4rem;
+}
+
+.projects button {
+  position: absolute;
+  bottom: 2.8rem;
+}
+
+/* ********************************* */
+/* FOOTER */
+/* ********************************* */
 
 footer {
   font-family: "Otomanopee One", sans-serif;
   padding: 2% 2%;
   background-color: #0984e3;
 }
+
 footer h2 {
   text-align: center;
   font-size: 3rem;
   color: white;
 }
+
 .foot {
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
 .foot a {
   margin: 1%;
   width: 3%;
 }
+
 .foot a:hover {
   color: gold;
 }
+
 footer p {
   text-align: center;
 }
 
-/* Media Queries */
+/* ********************************* */
+/* MEDIRA QUERIES N*/
+/* ********************************* */
 
 /* Mobile */
+
+@media (max-width: 82em) {
+  .project_box p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 73em) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .about {
+    width: 70%;
+  }
+}
+
+@media (max-width: 59em) {
+  .about {
+    width: 70%;
+  }
+}
+
+@media (max-width: 51em) {
+  .section-links {
+    display: none;
+  }
+
+  .home h1 {
+    font-size: 4.4rem;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+    justify-items: center;
+  }
+
+  .project_box {
+    width: 70%;
+  }
+}
 
 @media (max-width: 42em) {
   html {
     font-size: 50%;
-  }
-  /* Home Page */
-  .section-links {
-    display: none;
   }
 
   nav {

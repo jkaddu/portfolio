@@ -13,14 +13,20 @@
 
   <body>
     <header>
-      <nav>
-        <a class="scroll-top" href="#home"><h1>YOSHI</h1></a>
+      <nav class="desktop-nav">
+        <a class="scroll-top" href="#home"><h2>YOSHI</h2></a>
+
         <div class="section-links">
           <a class="scroll-about" href="#about">ABOUT</a>
           <a class="scroll-projects" href="#projects">PROJECTS</a>
           <a href="/images/tech_resume.pdf">RESUME</a>
           <a class="scroll-contact" href="#contact">CONTACT</a>
         </div>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </nav>
       <div class="home">
         <h1>HELLO! I'M JOSHUA KADDU.</h1>
@@ -67,7 +73,9 @@
             in the creation of said booking directory.
           </p>
 
-          <a href="https://bookr-seven.vercel.app/" class="one">DIRECTORY</a>
+          <button class="one">
+            <a href="https://bookr-seven.vercel.app/">DIRECTORY</a>
+          </button>
         </div>
 
         <div class="project_box">
@@ -93,9 +101,9 @@
             <strong>REACT</strong> on this project.
           </p>
 
-          <a href="https://create-react-app-seven-drab.vercel.app/" class="one"
-            >MOVIES</a
-          >
+          <button class="one">
+            <a href="https://create-react-app-seven-drab.vercel.app/">MOVIES</a>
+          </button>
         </div>
 
         <div class="project_box">
@@ -121,9 +129,9 @@
             modern looking layout.
           </p>
 
-          <a href="https://wcc2-74tubsuvf-jkaddu.vercel.app/" class="one"
-            >CHARITY</a
-          >
+          <button class="one">
+            <a href="https://wcc2-74tubsuvf-jkaddu.vercel.app/">CHARITY</a>
+          </button>
         </div>
       </div>
     </section>
@@ -146,6 +154,14 @@
       <p>Copyright &copy; 2024 Joshua Kaddu</p>
     </footer>
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="index.js"></script>
   </body>
 </html>
