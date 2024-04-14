@@ -51,3 +51,11 @@ two.addEventListener("click", function () {
 three.addEventListener("click", function () {
   window.location.href = "https://wcc2-g1gne3zmb-jkaddu.vercel.app/";
 });
+
+// MENU Navigation
+const btnMobileNav = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnMobileNav.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});

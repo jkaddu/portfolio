@@ -309,7 +309,7 @@ header {
   padding-bottom: 4.8rem;
 }
 
-.one {
+.btn-project {
   text-align: center;
   padding: 1.2rem 2.4rem;
   border-radius: 10px;
@@ -319,11 +319,11 @@ header {
   border: none;
 }
 
-.one:hover {
+.btn-project:hover {
   cursor: pointer;
 }
 
-.one a {
+.btn-project a {
   text-decoration: none;
   color: #fff;
   font-size: 1.5rem;
@@ -439,10 +439,44 @@ footer p {
   .about {
     width: 70%;
   }
+
+  .section-links a {
+    padding: 0 1.2rem;
+  }
 }
 
 @media (max-width: 51em) {
   .section-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+    background-color: rgba(9, 133, 227, 0.97);
+    margin-top: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .nav-open .section-links {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
@@ -469,17 +503,7 @@ footer p {
   nav {
     padding: 2rem;
   }
-  nav:hover .section-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #0984e3;
-    margin: 0 auto;
-    padding-top: 32%;
-    padding-bottom: 3%;
-    margin-top: 7%;
-    width: 50%;
-  }
+
   .home {
     text-align: center;
     padding: 3rem 1rem;
