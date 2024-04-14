@@ -529,3 +529,15 @@ footer p {
     margin: 1% 0;
   }
 }
+
+@media (max-width: 32em) {
+  .about {
+    margin: 4.8rem;
+    padding: 1.2rem 2.4rem;
+  }
+
+  .project_box {
+    padding: 1.5rem 3rem;
+    width: 100%;
+  }
+}
