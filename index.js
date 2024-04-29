@@ -41,15 +41,15 @@ const two = document.querySelector(".two");
 const three = document.querySelector(".three");
 
 one.addEventListener("click", function () {
-  window.location.href = "https://bookr-seven.vercel.app/";
+  window.open("https://bookr-seven.vercel.app/", "_blank");
 });
 
 two.addEventListener("click", function () {
-  window.location.href = "https://create-react-app-jkaddu.vercel.app/";
+  window.open("https://create-react-app-seven-drab.vercel.app/", "_blank");
 });
 
 three.addEventListener("click", function () {
-  window.location.href = "https://wcc2-g1gne3zmb-jkaddu.vercel.app/";
+  window.open("https://wcc2-g1gne3zmb-jkaddu.vercel.app/", "_blank");
 });
 
 // MENU Navigation
