@@ -39,6 +39,7 @@ contactBtn.addEventListener("click", function () {
 const one = document.querySelector(".one");
 const two = document.querySelector(".two");
 const three = document.querySelector(".three");
+const four = document.querySelector(".four");
 
 one.addEventListener("click", function () {
   window.open("https://bookr-seven.vercel.app/", "_blank");
@@ -49,6 +50,10 @@ two.addEventListener("click", function () {
 });
 
 three.addEventListener("click", function () {
+  window.open("https://github.com/jkaddu/Tops_Backend", "_blank");
+});
+
+four.addEventListener("click", function () {
   window.open("https://wcc2-g1gne3zmb-jkaddu.vercel.app/", "_blank");
 });
 
