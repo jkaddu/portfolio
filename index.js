@@ -54,7 +54,7 @@ three.addEventListener("click", function () {
 });
 
 four.addEventListener("click", function () {
-  window.open("https://wcc2-g1gne3zmb-jkaddu.vercel.app/", "_blank");
+  window.open("https://wcc2.vercel.app/", "_blank");
 });
 
 // MENU Navigation
